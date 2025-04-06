@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './Home.css';
 
 const Home = () => {
  
@@ -20,7 +21,7 @@ const initialJson = {
     return (
   <div>
     <h1 style={{ textAlign: 'center'}}>Home Page</h1>
-    <p>Welcome to your space.</p>
+    <p style={{ fontSize: '20px', fontWeight: 'bold' , color :'white'}}>Welcome to your space.</p>
   </div>
 );
 };
