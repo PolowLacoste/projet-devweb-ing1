@@ -1,7 +1,16 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Assure que l'image couvre toute la hauteur de la page */
+    background-image: url('./ville.jpg'); /* Remplacez par le chemin de votre image */
+    background-size: cover; /* L'image couvre toute la zone visible */
+    background-position: center center; /* Centrer l'image */
+    background-repeat: no-repeat; /* Éviter que l'image se répète */
+}
 
 
 .Search{
-  background-color:; blue;
+  background-color: blue;
   font-size: 20px;
   margin-left: 12px;
 }
@@ -12,7 +21,6 @@ background-color: blue;
 color: #fff;
 padding: 20px 0;
 text-align: center;
-margin-top: 500px;
 font-size: 20px;
 }
 
