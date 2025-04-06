@@ -103,12 +103,13 @@ const VisitorHub = () => {
             <div className="footer">
                 <footer className="site-footer">
                     <div className="footer-content">
-                        <p>&copy; 2025 MonSiteWeb. Tous droits réservés.</p>
+                        <p>&copy; Ygrec. All rights reserved.</p>
                         <ul className="footer-links">
-                            <li><a href="#">Accueil</a></li>
-                            <li><a href="#">À propos</a></li>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About us</a></li>
                             <li><a href="#">Contact</a></li>
-                            <li><a href="#">Mentions légales</a></li>
+                            <li><a href="#">Legal mentions</a></li>
+                            <li><a href="#">ygrec@gmail.com</a></li>
                         </ul>
                     </div>
                 </footer>
