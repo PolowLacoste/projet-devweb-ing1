@@ -74,8 +74,8 @@ const VisitorHub = () => {
 
     return (
         <div>
-            <p style={{ textAlign: 'center', paddingTop: 60 }}>Welcome to the Ygrec website, you are currently in guest mode.</p>
-            <p style={{ textAlign: 'center', paddingTop: 40 }}>You still can search local informations about the city !</p>
+            <p style={{ textAlign: 'center', paddingTop: 60, fontSize: '24px', fontWeight: 'bold', color:'white'}}>Welcome to the Ygrec website, you are currently in guest mode.</p>
+            <p style={{ textAlign: 'center', paddingTop: 40 , fontSize: '24px', fontWeight: 'bold' , color :'white'}}>You still can search local informations about the city !</p>
             <div>
                 <form onSubmit={handleSearch}>
                     <input
